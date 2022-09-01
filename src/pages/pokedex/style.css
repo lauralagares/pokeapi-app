@@ -1,0 +1,26 @@
+.pokedex-image{
+    max-width: 85vh;
+    min-height: 75vh;
+    background-image: url(../../images/pokedex.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+}
+
+.pokemon-animation{
+    display: block;
+    position:absolute;
+    left: 20%;
+    bottom: 45%; 
+    width: 15%;
+}
+
+
+
+
+
+
+
+
