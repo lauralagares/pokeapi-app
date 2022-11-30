@@ -50,6 +50,7 @@ function PokeList() {
                 style={{ display: 'flex', 
                 flexWrap: 'wrap', 
                 justifyContent: 'center', 
+                overflow: 'hidden',
                 gap:'0.5rem', 
                 marginTop:'1rem' }}
                 dataLength={pokemons.length}

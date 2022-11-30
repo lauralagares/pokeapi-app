@@ -1,12 +1,8 @@
-.pokecard{
- width: 35vh;
-}
-
 .image-container {
     display: flex;
     align-self: center;
     width: 90%;
-    height: 15rem;
+    min-height: 70%;
     border-radius: 5px;
 
 }
@@ -14,7 +10,5 @@
 .pokemon-image{
     filter: drop-shadow(0px 0px 5px #000);  
 }
-
-
-    
+ 
 

@@ -42,7 +42,7 @@ function PokeCard({ pokemon }) {
     <>
       <Card
         className='bg-warning m-1 pokecard'
-        style={{ cursor: 'pointer' }}
+        style={{ cursor: 'pointer', width:'35vh', height:'35vh'}}
         onClick={handleShow}>
 
         <div
@@ -53,7 +53,7 @@ function PokeCard({ pokemon }) {
 
         <Card.Body
           className='d-flex flex-column align-items-center'>
-          <Card.Title className='fs-5 fw-bold text-capitalize'>
+          <Card.Title className='fs-6 fw-bold text-capitalize'>
             <p>#{id} {name}</p>
           </Card.Title>
         </Card.Body>
