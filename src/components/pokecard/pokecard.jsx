@@ -53,7 +53,7 @@ function PokeCard({ pokemon }) {
 
         <Card.Body
           className='d-flex flex-column align-items-center'>
-          <Card.Title className='fs-6 fw-bold text-capitalize'>
+          <Card.Title className='fs-5 fw-bold text-capitalize'>
             <p>#{id} {name}</p>
           </Card.Title>
         </Card.Body>
