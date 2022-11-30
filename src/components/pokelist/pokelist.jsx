@@ -47,7 +47,11 @@ function PokeList() {
             pokemons.length === 0 
             ? ""
             : <InfiniteScroll
-                style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+                style={{ display: 'flex', 
+                flexWrap: 'wrap', 
+                justifyContent: 'center', 
+                gap:'0.5rem', 
+                marginTop:'1rem' }}
                 dataLength={pokemons.length}
                 next={fetchMoreData}
                 hasMore={true}

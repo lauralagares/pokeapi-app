@@ -31,7 +31,7 @@ function Pokedex() {
         <InputGroup>
           <Form.Control
             onChange={handleChange}
-            placeholder="Name or number" />
+            placeholder="Type a pokemon name or number" />
           <Button
             onClick={handleClick}
             variant="outline-secondary"
