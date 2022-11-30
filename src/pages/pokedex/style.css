@@ -1,6 +1,6 @@
 .pokedex-image{
     max-width: 85vh;
-    min-height: 75vh;
+    min-height: 70vh;
     background-image: url(../../images/pokedex.png);
     background-position: center;
     background-size: contain;
