@@ -1,7 +1,6 @@
 .pokecard {
-width: 12.5rem;
-cursor: pointer;
-/* height: 200px; */
+    width: 12.5rem;
+    cursor: pointer;
 }
 
 .image-container {
@@ -9,32 +8,43 @@ cursor: pointer;
     align-self: center;
     width: 90%;
     height: 8.813rem;
-    border-radius: 5px;
+    border-radius: 0.313rem;
 
 }
 
-.pokemon-image{
-    filter: drop-shadow(0px 0px 5px #000);  
+.pokemon-image {
+    filter: drop-shadow(0px 0px 5px #000);
 }
 
 .pokemon-number {
     display: none;
 }
 
-@media( max-width: 500px) {
-
-.pokecard{
-    width: 90px;
+.card-title > p {
+    margin: 0;
 }
 
-.image-container {
-    width: 90%;
-    height: 80px;
-}
+@media(max-width: 500px) {
 
-.card-title {
-    display: none;
-}
-}
- 
+    .pokecard {
+        width: 5.625rem;
+    }
 
+    .image-container {
+        width: 90%;
+        height: 80px;
+    }
+
+    .card-title {
+        display: none;
+    }
+
+    .pokemon-number {
+        display: block;
+    }
+
+    .pokemon-number > p {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

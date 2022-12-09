@@ -56,6 +56,9 @@ function PokeCard({ pokemon }) {
           <Card.Title className='fs-5 fw-bold text-capitalize'>
             <p>#{id} {name}</p>
           </Card.Title>
+          <Card.Title className='pokemon-number'>
+          <p>#{id}</p>
+          </Card.Title >
         </Card.Body>
       </Card>
 
