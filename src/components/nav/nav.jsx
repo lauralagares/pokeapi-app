@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useNavigate } from 'react-router-dom';
 
-function PokeNav () {
+function PokeNav() {
 
   let navigate = useNavigate();
 
@@ -12,10 +12,10 @@ function PokeNav () {
     <Navbar bg="warning" expand="lg">
       <Container>
         <Navbar.Brand href="#pokeapi">
-         <img
-         onClick={() => navigate('/pokeapi')}
-         style={{width: '16rem', height: '6rem'}}
-         src={Logo} alt="" />
+          <img
+            onClick={() => navigate('/pokeapi')}
+            style={{ width: '16rem', height: '6rem' }}
+            src={Logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -29,4 +29,4 @@ function PokeNav () {
   );
 }
 
-export default PokeNav ;
+export default PokeNav;

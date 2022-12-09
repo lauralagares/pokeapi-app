@@ -42,7 +42,6 @@ function PokeCard({ pokemon }) {
     <>
       <Card
         className='bg-warning m-1 pokecard'
-        // style={{ cursor: 'pointer', width:'35vh', height:'36vh'}}
         onClick={handleShow}>
 
         <div

@@ -31,7 +31,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
             <Modal.Header closeButton>
                 <Modal.Title>
                     <div>
-                        <p className="fs-2 fw-bold text-capitalize">💥✨#️{pokemon.id} {pokemon.name}✨💥</p>
+                        <p className="fs-2 fw-bold text-capitalize">💥#️{pokemon.id} {pokemon.name}💥</p>
                     </div>
                 </Modal.Title>
             </Modal.Header>
@@ -49,12 +49,12 @@ function ModalInfo({ show, handleClose, pokemon }) {
                             <p>TYPES</p>
                         </div>
                         {pokemon.types?.map(t =>
-                            <div
+                            <article
                                 className="modal-items"
                                 style={{ backgroundColor: colors[t.type.name] }}
                                 key={t.id} >
                                 <p>{t.type.name}</p>
-                            </div>)
+                            </article>)
                         }
                     </section>
                     <section>
@@ -62,9 +62,9 @@ function ModalInfo({ show, handleClose, pokemon }) {
                             <p>ABILITIES</p>
                         </div>
                         {pokemon.abilities?.map(a =>
-                            <div className="bg-warning modal-items">
+                            <article className="bg-warning modal-items">
                                 <p>{a.ability.name}</p>
-                            </div>)
+                            </article>)
                         }
                     </section>
                 </section>
