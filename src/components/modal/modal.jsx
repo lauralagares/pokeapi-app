@@ -27,14 +27,12 @@ function ModalInfo({ show, handleClose, pokemon }) {
     };
 
     return (
-        <Modal
-            size="lg"
-            show={show}
-            onHide={handleClose}>
+        <Modal size="lg" show={show} onHide={handleClose}>
             <Modal.Header closeButton>
                 <Modal.Title>
                     <div>
-                        <p className="fs-2 fw-bold text-capitalize">💥✨#️{pokemon.id} {pokemon.name}✨💥</p></div>
+                        <p className="fs-2 fw-bold text-capitalize">💥✨#️{pokemon.id} {pokemon.name}✨💥</p>
+                    </div>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body className="d-flex flex-wrap fs-3 fw-bold text-center text-capitalize justify-content-center">
@@ -50,31 +48,26 @@ function ModalInfo({ show, handleClose, pokemon }) {
                         <div className="type-move">
                             <p>TYPES</p>
                         </div>
-                        {
-                            pokemon.types?.map(t =>
-                                <div
-                                    className="modal-items"
-                                    style={{ backgroundColor: colors[t.type.name] }}
-                                    key={t.id} >
-                                    <p>{t.type.name}</p>
-                                </div>
-                            )
+                        {pokemon.types?.map(t =>
+                            <div
+                                className="modal-items"
+                                style={{ backgroundColor: colors[t.type.name] }}
+                                key={t.id} >
+                                <p>{t.type.name}</p>
+                            </div>)
                         }
                     </section>
                     <section>
                         <div className="type-move">
                             <p>ABILITIES</p>
                         </div>
-                        {
-                            pokemon.abilities?.map(a =>
-                                <div className="bg-warning modal-items">
-                                    <p>{a.ability.name}</p>
-                                </div>
-                            )}
-
+                        {pokemon.abilities?.map(a =>
+                            <div className="bg-warning modal-items">
+                                <p>{a.ability.name}</p>
+                            </div>)
+                        }
                     </section>
                 </section>
-
             </Modal.Body>
         </Modal>
     )

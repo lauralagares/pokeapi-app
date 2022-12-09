@@ -1,23 +1,23 @@
-.pokemon-modal{
+.pokemon-modal {
     min-width: 40vh;
     height: 40vh;
     margin: 1rem;
-    filter: drop-shadow(0px 0px 5px #000);  
+    filter: drop-shadow(0px 0px 5px #000);
 }
 
-section > div{
+section>div {
     border-radius: 5%;
     padding: 0rem 1rem 0rem 1rem;
     border: solid 1px lightgrey;
 }
 
-.modal-items{
-border-radius: 5%;
-padding: 0.1rem 1rem;
-margin: 0.2rem 0.2rem;
+.modal-items {
+    border-radius: 5%;
+    padding: 0.1rem 1rem;
+    margin: 0.2rem 0.2rem;
 }
 
-.type-move{
-    background: rgb(248,49,47);
-    background: linear-gradient(141deg, rgba(248,49,47,1) 0%, rgba(252,213,63,1) 69%);
+.type-move {
+    background: rgb(248, 49, 47);
+    background: linear-gradient(141deg, rgba(248, 49, 47, 1) 0%, rgba(252, 213, 63, 1) 69%);
 }
