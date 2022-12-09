@@ -15,6 +15,7 @@
     left: 20%;
     bottom: 46.5%; 
     width: 15%;
+    filter: drop-shadow(0px 0px 2px white);
 }
 
 
