@@ -40,9 +40,7 @@ function PokeCard({ pokemon }) {
 
   return (
     <>
-      <Card
-        className='bg-warning m-1 pokecard'
-        onClick={handleShow}>
+      <Card className='bg-warning m-1 pokecard' onClick={handleShow}>
 
         <div
           className='mt-2 image-container'
@@ -50,13 +48,12 @@ function PokeCard({ pokemon }) {
           <Card.Img className='pokemon-image' src={img} />
         </div>
 
-        <Card.Body
-          className='d-flex flex-column align-items-center'>
+        <Card.Body className='d-flex flex-column align-items-center'>
           <Card.Title className='fs-5 fw-bold text-capitalize'>
             <p>#{id} {name}</p>
           </Card.Title>
           <Card.Title className='pokemon-number'>
-          <p>#{id}</p>
+            <p>#{id}</p>
           </Card.Title >
         </Card.Body>
       </Card>

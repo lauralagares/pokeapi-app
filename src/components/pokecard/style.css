@@ -20,7 +20,7 @@
     display: none;
 }
 
-.card-title > p {
+.card-title>p {
     margin: 0;
 }
 
@@ -43,7 +43,7 @@
         display: block;
     }
 
-    .pokemon-number > p {
+    .pokemon-number>p {
         font-size: 1rem;
         font-weight: bold;
     }

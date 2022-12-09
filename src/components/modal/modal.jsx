@@ -27,7 +27,8 @@ function ModalInfo({ show, handleClose, pokemon }) {
     };
 
     return (
-        <Modal size="lg" show={show} onHide={handleClose}>
+        <Modal id={pokemon.id} size="lg" show={show} onHide={handleClose}>
+
             <Modal.Header closeButton>
                 <Modal.Title>
                     <div>
@@ -35,19 +36,21 @@ function ModalInfo({ show, handleClose, pokemon }) {
                     </div>
                 </Modal.Title>
             </Modal.Header>
+
             <Modal.Body className="d-flex flex-wrap fs-3 fw-bold text-center text-capitalize justify-content-center">
                 <section>
                     <img
                         src={pokemon.sprites?.other.dream_world.front_default}
                         className="pokemon-modal"
+                        alt="Modal"
                     />
                 </section>
 
                 <section className='d-flex gap-2'>
                     <section>
-                        <div className="type-move">
+                        <article className="type-move">
                             <p>TYPES</p>
-                        </div>
+                        </article>
                         {pokemon.types?.map(t =>
                             <article
                                 className="modal-items"
@@ -58,9 +61,9 @@ function ModalInfo({ show, handleClose, pokemon }) {
                         }
                     </section>
                     <section>
-                        <div className="type-move">
+                        <article className="type-move">
                             <p>ABILITIES</p>
-                        </div>
+                        </article>
                         {pokemon.abilities?.map(a =>
                             <article className="bg-warning modal-items">
                                 <p>{a.ability.name}</p>

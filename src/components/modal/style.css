@@ -10,13 +10,13 @@
     filter: drop-shadow(0px 0px 5px #000);
 }
 
-section>div {
-    border-radius: 5%;
-    border: solid 1px lightgrey;
+section> article {
+    border-radius: 0.313rem;
+    border: solid 0.063rem lightgrey;
 }
 
 .modal-items {
-    border-radius: 5%;
+    border-radius: 0.313rem;
     padding: 0.5rem 1rem;
     margin: 0.2rem 0.2rem;
 }

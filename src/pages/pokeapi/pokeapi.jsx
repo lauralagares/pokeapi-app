@@ -7,15 +7,15 @@ import Pikachu from '../../images/pikachu.png';
 function PokeApi() {
     return (
         <>
-        <PokeNav></PokeNav>
+            <PokeNav></PokeNav>
             <Container style={{ height: '75vh' }}>
                 <div className='animation-container'>
-                    <img src={Pikachu} className="img-fluid pikachu-image" />
+                    <img src={Pikachu} className="img-fluid pikachu-image" alt="Pikachu" />
                 </div>
-            </Container> 
-        <Footer></Footer>
+            </Container>
+            <Footer></Footer>
         </>
     )
-  }
-  
-  export default PokeApi
+}
+
+export default PokeApi

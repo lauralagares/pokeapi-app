@@ -4,8 +4,8 @@ import PokeList from "../../components/pokelist/pokelist";
 function Home() {
   return (
     <>
-    <PokeNav></PokeNav>
-    <PokeList></PokeList>
+      <PokeNav></PokeNav>
+      <PokeList></PokeList>
     </>
   )
 }

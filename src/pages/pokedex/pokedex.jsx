@@ -43,8 +43,7 @@ function Pokedex() {
         </InputGroup>
 
         <div className="container-fluid pokedex-image">
-          {
-            pokemon &&
+          {pokemon &&
 
             <img
               className="pokemon-animation"
