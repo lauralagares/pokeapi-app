@@ -32,7 +32,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
             <Modal.Header closeButton>
                 <Modal.Title>
                     <div>
-                        <p className="fs-2 fw-bold text-capitalize">💥#️{pokemon.id} {pokemon.name}💥</p>
+                        <p className="fw-bold text-capitalize">💥#️{pokemon.id} {pokemon.name}💥</p>
                     </div>
                 </Modal.Title>
             </Modal.Header>
