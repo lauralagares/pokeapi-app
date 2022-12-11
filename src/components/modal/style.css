@@ -25,6 +25,7 @@
     border-radius: 0.313rem;
     border: solid 0.063rem lightgrey;
     font-size: 2.5rem;
+    margin-bottom: 0;
 }
 
 .pokemon-modal {
