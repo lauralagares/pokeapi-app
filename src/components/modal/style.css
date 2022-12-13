@@ -11,6 +11,9 @@
     display: flex;
     justify-content: center;
     width: 90%;
+    background: linear-gradient(159deg, rgba(255,255,255,1) 10%, rgba(42,107,253,1) 90%);
+    border-radius: 0.313rem;
+    border: solid 0.063rem lightgrey;
 }
 
 .modal-header .btn-close {
@@ -19,11 +22,7 @@
 }
 
 .modal-title> div> p {
-    background: rgb(255,255,255);
-    background: linear-gradient(153deg, rgba(255,255,255,1) 25%, rgba(42,107,253,1) 75%);
     padding: 1rem;
-    border-radius: 0.313rem;
-    border: solid 0.063rem lightgrey;
     font-size: 2.5rem;
     margin-bottom: 0;
 }
