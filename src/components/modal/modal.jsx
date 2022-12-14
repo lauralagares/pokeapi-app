@@ -48,6 +48,13 @@ function ModalInfo({ show, handleClose, pokemon }) {
 
                 <section className='d-flex gap-2'>
                     <section>
+                        <article className='type-move'>
+                            <p>HEIGHT</p>
+                        </article>
+                        <article><p>{pokemon.height}</p></article>
+                    </section>
+
+                    <section>
                         <article className="type-move">
                             <p>TYPES</p>
                         </article>
