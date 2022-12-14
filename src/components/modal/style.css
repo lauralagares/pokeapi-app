@@ -1,6 +1,6 @@
 .modal-content {
     width: 90%;
-    min-height: 33rem;
+    min-height: 28rem;
 }
 
 .modal-header {
@@ -24,30 +24,32 @@
 .modal-title> div> p {
     padding: 1rem;
     font-size: 2.5rem;
-    margin-bottom: 0;
 }
 
-.pokemon-modal {
+.pokemon-modal-image {
     width: 15rem;
     height: 15rem;
-    margin: 1rem 5rem 0 0;
+    margin: 1rem;
     filter: drop-shadow(0px 0px 5px #000);
+    margin: 0 2rem 0 0;
 }
 
-section>article {
+section > article {
     border-radius: 0.313rem;
     border: solid 0.063rem lightgrey;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(141deg, #f8312f 0%, #fcd53f 69%);
 }
 
 .modal-items {
     border-radius: 0.313rem;
     padding: 0.5rem 1rem;
     margin: 0.2rem 0.2rem;
-}
-
-.type-move {
-    padding: 0.5rem 1rem;
-    background: linear-gradient(141deg, #f8312f 0%, #fcd53f 69%);
+    font-size: 1.5rem;
 }
 
 @media (max-width:990px) {
@@ -59,19 +61,25 @@ section>article {
     }
 
     .modal-title> div> p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
-    .type-move {
-        font-size: 1.1rem;
+    .pokemon-modal-image {
+        width: 12rem;
+        height: 12rem;
+        margin: 0 0 1rem 0;
     }
 
-    .type-move>p {
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .section-title > p {
         margin-bottom: 0;
     }
 
     .modal-items {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .modal-items>p {
@@ -95,4 +103,20 @@ section>article {
         font-size: 1.3rem;
         padding: 0.5rem;
     }
+
+    .pokemon-modal-image {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .section-title {
+        font-size: 1rem;
+        padding: 0 0.5rem 0.3rem;
+    }
+
+    .modal-items {
+        font-size: 1rem;
+        padding: 0 0.5rem 0.3rem;
+    }
+
 }

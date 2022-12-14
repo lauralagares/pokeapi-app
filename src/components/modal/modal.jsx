@@ -41,21 +41,23 @@ function ModalInfo({ show, handleClose, pokemon }) {
                 <section>
                     <img
                         src={pokemon.sprites?.other.dream_world.front_default}
-                        className="pokemon-modal"
+                        className="pokemon-modal-image"
                         alt="Modal"
                     />
                 </section>
 
-                <section className='d-flex gap-2'>
+                <section className='d-flex flex-wrap justify-content-center gap-2'>
                     <section>
-                        <article className='type-move'>
+                        <article className='section-title'>
                             <p>HEIGHT</p>
                         </article>
-                        <article><p>{pokemon.height}</p></article>
+                        <article className="modal-items bg-danger">
+                            <p>{pokemon.height}</p>
+                        </article>
                     </section>
 
                     <section>
-                        <article className="type-move">
+                        <article className="section-title">
                             <p>TYPES</p>
                         </article>
                         {pokemon.types?.map(t =>
@@ -68,7 +70,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
                         }
                     </section>
                     <section>
-                        <article className="type-move">
+                        <article className="section-title">
                             <p>ABILITIES</p>
                         </article>
                         {pokemon.abilities?.map(a =>
