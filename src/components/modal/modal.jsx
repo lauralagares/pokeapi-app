@@ -58,7 +58,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
 
                     <section>
                         <article className="section-title">
-                            <p>TYPES</p>
+                            <p>TYPE</p>
                         </article>
                         {pokemon.types?.map(t =>
                             <article
