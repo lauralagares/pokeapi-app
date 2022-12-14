@@ -45,7 +45,7 @@ section > article {
     background: linear-gradient(141deg, #f8312f 0%, #fcd53f 69%);
 }
 
-.modal-items {
+.section-items {
     border-radius: 0.313rem;
     padding: 0.5rem 1rem;
     margin: 0.2rem 0.2rem;
@@ -78,11 +78,11 @@ section > article {
         margin-bottom: 0;
     }
 
-    .modal-items {
+    .section-items {
         font-size: 1.2rem;
     }
 
-    .modal-items>p {
+    .section-items > p {
         margin-bottom: 0;
     }
 
@@ -114,7 +114,7 @@ section > article {
         padding: 0 0.5rem 0.3rem;
     }
 
-    .modal-items {
+    .section-items {
         font-size: 1rem;
         padding: 0 0.5rem 0.3rem;
     }

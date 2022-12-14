@@ -51,7 +51,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
                         <article className='section-title'>
                             <p>HEIGHT</p>
                         </article>
-                        <article className="modal-items bg-danger">
+                        <article className="section-items bg-danger">
                             <p>{pokemon.height}</p>
                         </article>
                     </section>
@@ -62,7 +62,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
                         </article>
                         {pokemon.types?.map(t =>
                             <article
-                                className="modal-items"
+                                className="section-items"
                                 style={{ backgroundColor: colors[t.type.name] }}
                                 key={t.id} >
                                 <p>{t.type.name}</p>
@@ -74,7 +74,7 @@ function ModalInfo({ show, handleClose, pokemon }) {
                             <p>ABILITIES</p>
                         </article>
                         {pokemon.abilities?.map(a =>
-                            <article className="bg-warning modal-items">
+                            <article className="bg-warning section-items">
                                 <p>{a.ability.name}</p>
                             </article>)
                         }
