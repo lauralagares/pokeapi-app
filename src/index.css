@@ -30,6 +30,7 @@ code {
 
 @font-face {
   font-family: "pokemon-font";
+  font-display: auto;
   src: url(../src/fonts/Pokemon\ Hollow.ttf);
 }
 
